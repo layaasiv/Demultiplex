@@ -7,11 +7,11 @@ The reads were multiplexed when sequenced, meaning many different samples (from 
 For this project's dataset, we are working with paired end reads, where the R1, R2, R3, and R4 files contain read 1 seq, index 1 seq, index 2 seq, and read 2 seq, respectively. Matched index pair reads are expected to have the same indexes (index1 and index2) in this dataset. Therefore, mismatched indexes between paired reads indicates index hopping. Those reads that belong to the same library will all carry the same index identifier. 
 
 ## What is in this repository? 
-* [Assignment the first](): Exploratory analysis of the data; looking at quality scores distribution.
+* [Assignment the first](https://github.com/layaasiv/Demultiplex/tree/master/Assignment-the-first): Exploratory analysis of the data; looking at quality scores distribution.
     * [qscore_dist_demult.py](https://github.com/layaasiv/Demultiplex/blob/master/Assignment-the-first/qscore_dist_demult.py): Algorithm that produces histograms of average quality score per base position for each file.
     * [bioinfo.py](https://github.com/layaasiv/Demultiplex/blob/master/Assignment-the-first/bioinfo.py): Python module file that contains some useful bioinformatics functions. 
-* [Assigment the second](): Pseudocode peer review & feedback of fellow students.
-* [Assignment the third](): Contains final algorithms and resulting output files for the dataset used.
+* [Assigment the second](https://github.com/layaasiv/Demultiplex/tree/master/Assignment-the-second): Pseudocode peer review & feedback of fellow students.
+* [Assignment the third](https://github.com/layaasiv/Demultiplex/tree/master/Assignment-the-third): Contains final algorithms and resulting output files for the dataset used.
     * [demux.py](https://github.com/layaasiv/Demultiplex/blob/master/Assignment-the-third/dmux.py): Final demultiplexing algorithm.
     * [dmux_sbatch.sh](https://github.com/layaasiv/Demultiplex/blob/master/Assignment-the-third/dmux_sbatch.sh): Slurm script to submit algorithm script to HPC.
     * The tsv files contain counts/proportions of reads identified in each category (matched, hopped, unknown indexes).
